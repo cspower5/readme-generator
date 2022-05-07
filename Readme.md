@@ -1,41 +1,42 @@
 
-<h1 align="center">t</h1>
+<h1 align="center">Jay</h1>
 
-undefined
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 # description:
-  t
+  Jay
 
   # Table of Content
   - [descriptions](#description)
   - [username](#username)
   - [github](#github)
+  - [email](#email)
    
-- [installation](#installation) 
-- [usage](#usage) 
-- [contribution](#contribution) 
-- [test](#test)
+- [Installation](#Installation) 
+- [Usage](#Usage) 
+- [Contributions](#Contributions) 
+- [Testing](#Testing) 
+- [Issues](#Issues)
 
 ## username:
-https://github.com/t
+https://github.com/Jay
 
 ## github
-t
+Jay
 
-## installation:
-t
-
-## usage:
-t 
-
-## contributions made by:
-t
-
-## Testing Process:
-t
-
-## What to do about application issues:
-t
-
-## email:
-t
+## email
+Jay
+ ## License
+  Boost
+  (https://www.boost.org/LICENSE_1_0.txt)
+   ## Installation
+    Jay
+     ## Usage
+    Jay
+     ## Contributions
+    Jay
+     ## Testing
+    Jay
+     ## Issues
+    Jay
+    

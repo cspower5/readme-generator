@@ -53,15 +53,26 @@ const questions = [
     },
     {   
         type: "input",
-        message: "What is the installation process?",
-        name: "installation"
+        message: "Who are the contributors to this project?",
+        name: "contribution",
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please name the contributers to the project");
+            }
+            return true;
+        }
     },
     {   
         type: "input",
-        message: "How will this application be used?",
-        name: "usage"
+        message: "What is the user github email address?",
+        name: "email",
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid gthub email is required");
+            }
+            return true;
+        }
     },
-    
     {   
         type: "list",
         message: "What licenses are required with this project?",
@@ -71,8 +82,13 @@ const questions = [
     },
     {   
         type: "input",
-        message: "Who are the contributors to this project?",
-        name: "contribution"
+        message: "What is the installation process?",
+        name: "installation"
+    },
+    {   
+        type: "input",
+        message: "How will this application be used?",
+        name: "usage"
     },
     {   
         type: "input",
@@ -83,11 +99,6 @@ const questions = [
         type: "input",
         message: "What do I do if I have an issue?",
         name: "issues"
-    },
-    {   
-        type: "input",
-        message: "What is the user github email address?",
-        name: "email"
     },
 ];
 
