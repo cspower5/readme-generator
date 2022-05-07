@@ -1,42 +1,43 @@
 
-<h1 align="center">Jay</h1>
+<h1 align="center">gee</h1>
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
 # description:
-  Jay
+  gee
 
-  # Table of Content
+# Table of Content
   - [descriptions](#description)
   - [username](#username)
   - [github](#github)
+  - [Contributions](#contributions)
   - [email](#email)
-   
-- [Installation](#Installation) 
-- [Usage](#Usage) 
-- [Contributions](#Contributions) 
-- [Testing](#Testing) 
-- [Issues](#Issues)
+  - [license](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Issues](#issues)
 
 ## username:
-https://github.com/Jay
+https://github.com/gee
 
 ## github
-Jay
+gee
+
+## Contributions
+gee
 
 ## email
-Jay
- ## License
-  Boost
-  (https://www.boost.org/LICENSE_1_0.txt)
-   ## Installation
-    Jay
-     ## Usage
-    Jay
-     ## Contributions
-    Jay
-     ## Testing
-    Jay
-     ## Issues
-    Jay
-    
+gee
+
+## license
+  Eclipse 
+  (https://opensource.org/licenses/EPL-1.0)
+## Installation
+  gee
+## Usage
+  gee
+## Testing
+  gee
+## Issues
+  gee

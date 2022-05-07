@@ -1,8 +1,6 @@
 
 
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-//${license[data.license]}
 function renderLicenseBadge(license) {
   const badge = {
     MIT:     '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
@@ -34,22 +32,11 @@ function renderLicenseLink(license) {
   };
 
   if (license) {
-    console.log(type[license])
     return type[license];
   }else {
     return false;
   }; 
 };
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   if(license){
-//     return '## license';
-//   }else {
-//     return '';
-//   }
-// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -58,34 +45,32 @@ function generateMarkdown(data) {
   - [descriptions](#description)
   - [username](#username)
   - [github](#github)
+  - [Contributions](#contributions)
   - [email](#email)
   `;
 
   //Add only the labels to table of Contents that have been selected.
-  // if (data.license) {
-  //   tableOfContents += ` \n- [licenses](#license)`
-  // };
+  if (data.license) {
+    tableOfContents += `- [license](#license)`
+  };
   if (data.installation) {
-    tableOfContents += ` \n- [Installation](#Installation)`
+    tableOfContents += `\n- [Installation](#installation)`
   };
   if (data.usage) {
-    tableOfContents += ` \n- [Usage](#Usage)`
-  };
-  if (data.contribution) {
-    tableOfContents += ` \n- [Contributions](#Contributions)`
+    tableOfContents += `\n- [Usage](#usage)`
   };
   if (data.test) {
-    tableOfContents += ` \n- [Testing](#Testing)`
+    tableOfContents += `\n- [Testing](#testing)`
   };
   if (data.issues) {
-    tableOfContents += ` \n- [Issues](#Issues)`
+    tableOfContents += `\n- [Issues](#issues)`
   };
   
   //add only the labels to section that have been selected.
   let section = `# description:
   ${data.description}
 
-  ${tableOfContents}
+${tableOfContents}
 
 ## username:
 https://github.com/${data.userName}
@@ -93,40 +78,33 @@ https://github.com/${data.userName}
 ## github
 ${data.repo}
 
+## Contributions
+${data.contribution}
+
 ## email
 ${data.email}
 `;
-console.log(renderLicenseLink(data.license))
-if(renderLicenseLink(data.license)) {
-  section += ` ## License
-  ${data.license}
-  ${renderLicenseLink(data.license)}
-  `
+// console.log(renderLicenseLink(data.license))
+if(data.license) {
+  section += `\n## license
+  ${data.license} 
+  ${renderLicenseLink(data.license)}`
 };
 if(data.installation) {
-    section += ` ## Installation
-    ${data.installation}
-    `
+  section += `\n## Installation
+  ${data.installation}`
 };
 if(data.usage) {
-    section += ` ## Usage
-    ${data.usage}
-    `
+  section += `\n## Usage
+  ${data.usage}`
 };
-if(data.contribution) {
-    section += ` ## Contributions
-    ${data.contribution}
-    `
-};
- if(data.test) {
-    section += ` ## Testing
-    ${data.test}
-    `
+if(data.test) {
+  section += `\n## Testing
+  ${data.test}`
 };
 if(data.issues) {
-    section += ` ## Issues
-    ${data.issues}
-    `
+  section += `\n## Issues
+  ${data.issues}`
 };
 
   return `
