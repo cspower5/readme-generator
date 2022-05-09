@@ -1,10 +1,10 @@
 
-<h1 align="center">gee</h1>
+<h1 align="center">ReadMe Generator</h1>
 
-[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # description:
-  gee
+  Creates a read me file for your project
 
 # Table of Content
   - [descriptions](#description)
@@ -19,25 +19,25 @@
 - [Issues](#issues)
 
 ## username:
-https://github.com/gee
+https://github.com/cspower5
 
 ## github
-gee
+readme-generator
 
 ## Contributions
-gee
+Christopher Borer
 
 ## email
-gee
+chris.borer@gmail.com
 
 ## license
-  Eclipse 
-  (https://opensource.org/licenses/EPL-1.0)
+  MIT 
+  (https://opensource.org/licenses/MIT)
 ## Installation
-  gee
+  requires node.js and inquirer
 ## Usage
-  gee
+  To create a read me file for eacch project
 ## Testing
-  gee
+  NA
 ## Issues
-  gee
+  contact contributors
