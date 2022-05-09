@@ -76,7 +76,7 @@ ${tableOfContents}
 https://github.com/${data.userName}
 
 ## github
-${data.repo}
+https://github.com/${data.userName}/${data.repo}
 
 ## Contributions
 ${data.contribution}
